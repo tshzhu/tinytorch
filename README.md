@@ -7,7 +7,7 @@
 > Original repository: https://github.com/harvard-edge/cs249r_book/tree/dev/tinytorch  
 > Full course and documentation: https://mlsysbook.ai/tinytorch/
 
-**License**: MIT License
+**License**: [Apache 2.0](./tinytorch/LICENSE)
 
 **My changes**:  
 I extracted `src-blank` and `src-solution` from the original `src` folder.

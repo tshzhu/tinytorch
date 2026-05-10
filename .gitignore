@@ -196,8 +196,8 @@ modules/HASATTR_*.md
 
 # Generated notebooks (built from src/*.py source files)
 # The modules/ directory contains generated notebooks for learners
-modules/*
-!modules/README.md
+# modules/*
+# !modules/README.md
 
 # Generated website module docs (copied from src/*/ABOUT.md during build)
 # Single source of truth: src/*/ABOUT.md
@@ -218,15 +218,15 @@ site/_build/
 # Generated tinytorch package (auto-generated from src/ via nbdev_export)
 # Single source of truth: src/*/*.py files
 # Track __init__.py files (package structure) but ignore generated implementations
-tinytorch/*
-!tinytorch/__init__.py
-!tinytorch/core/
-tinytorch/core/*
-!tinytorch/core/__init__.py
-!tinytorch/perf/
-tinytorch/perf/*
-!tinytorch/perf/__init__.py
-!tinytorch/README.md
+# tinytorch/*
+# !tinytorch/__init__.py
+# !tinytorch/core/
+# tinytorch/core/*
+# !tinytorch/core/__init__.py
+# !tinytorch/perf/
+# tinytorch/perf/*
+# !tinytorch/perf/__init__.py
+# !tinytorch/README.md
 
 # Generated benchmark outputs
 .tito/benchmarks/
